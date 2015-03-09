@@ -15,7 +15,7 @@ export default Ember.Component.extend({
 
   didInsertElement: function() {
     this.set('value', new Sketchpad({
-      element: '#sketchpad',
+      element: this.$('canvas'),
       width: this.get('width'),
       height: this.get('height'),
       strokes: this.get('strokes'),
