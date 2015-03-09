@@ -1,25 +1,5 @@
-# Ember-cli-sketchpad
+# ember-cli-sketchpad
 
-This README outlines the details of collaborating on this Ember addon.
+An Ember.js addon to include a simple sketchpad based on [sketchpad library](https://www.npmjs.com/package/sketchpad).
 
-## Installation
-
-* `git clone` this repository
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+[![NPM](https://nodei.co/npm/ember-cli-sketchpad.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/ember-cli-sketchpad/)
