@@ -1,3 +1,13 @@
 <h2 id="title">Welcome to Ember.js</h2>
 
+{{input-sketchpad width=400 height=400 value=sketchpad_one class="sketchpad"}}
+<button {{action 'undo' sketchpad_one}}>undo</button>
+<button {{action 'redo' sketchpad_one}}>redo</button>
+{{input-sketchpad width=400 height=400 value=sketchpad_two class="sketchpad"}}
+<button {{action 'undo' sketchpad_two}}>undo</button>
+<button {{action 'redo' sketchpad_two}}>redo</button>
+{{input-sketchpad width=400 height=400 value=sketchpad_three class="sketchpad"}}
+<button {{action 'undo' sketchpad_three}}>undo</button>
+<button {{action 'redo' sketchpad_three}}>redo</button>
+
 {{outlet}}
