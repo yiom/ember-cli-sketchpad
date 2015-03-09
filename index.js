@@ -2,5 +2,10 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-cli-sketchpad'
+  name: 'ember-cli-sketchpad',
+
+  included: function(app) {
+    this._super.included(app);
+    app.import(app.bowerDirectory + '/sketchpad/scripts/sketchpad.js')
+  },
 };
